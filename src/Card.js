@@ -28,7 +28,7 @@ function Card(props) {
                       : { fontWeight: "bold" }
                   }
                 >
-                  {props.card.user}
+                  {props.card.users}
                 </span>
               </li>
               {props.card.features.map((value) => {
